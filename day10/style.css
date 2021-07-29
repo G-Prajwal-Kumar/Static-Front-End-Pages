@@ -35,7 +35,7 @@
 
 #link{
 	text-decoration: none;
-	padding: 15px 15px;
+	padding: 7px 15px;
 	color: white;
 	float: left;
 	margin-top: 2px;
@@ -51,12 +51,24 @@
 	font-family: carlito;
 	font-weight: lighter;
 	border-radius: 20px;
-	height: 55px;
+	height: 39px;
+}
+
+.dropdown-menu{
+	margin-top: 0px;
+	background: grey;
+	border: 2px solid black	;
+}
+
+.dropdown-item{
+	color: white;
+	font-family: carlito;
+	font-weight: bold;
 }
 
 #link1{
 	text-decoration: none;
-	padding: 15px 15px;
+	padding: 7px 15px;
 	color: white;
 	margin-right: 50px;	
 	float: left;
@@ -71,6 +83,10 @@
 
 #btn3:hover{
 	background: orange;
+}
+
+.dropdown:hover > .dropdown-menu{
+	display: block;
 }
 
 
@@ -145,3 +161,21 @@
 	border-radius: 8px;
 }
 
+.bi-twitter, .bi-facebook, .bi-instagram, .bi-skype, .bi-linkedin{
+	font-size: 17px;
+	color: white;
+	background: orange;
+	padding-top: 7px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 7px;
+	border-radius: 50%;
+	margin-left: 5px;
+	float: left;
+	margin-top: 2px;
+}
+
+.bi-twitter:hover, .bi-facebook:hover, .bi-instagram:hover, .bi-skype:hover, .bi-linkedin:hover{
+	color: white;
+	box-shadow: 0px 0px 0px 3px white;
+}
