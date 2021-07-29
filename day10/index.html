@@ -1,139 +1,16 @@
 <html>
 <head>
 	<title>website</title>
-	<link rel="stylesheet" type="text/css" href="dist\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="E:\IOE\Nxt Ways\Day 8\dist\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<style>
-	
-#divx{
-	height: 2030px;
-	width: 1903px;
-	background: whitesmoke;
-	margin: 0 auto;
-}
-
-#maindiv{
-	height: 2030px;
-	width: 1870px;
-	padding: 25px 25px;
-}
-.navbar{
-	width: 1855px;
-	height: 90px;
-	background: #323548;
-	border-radius: 8px;
-}
-
-#logo{
-	float: left;
-	color: white;
-	background: darkturquoise;
-	padding: 5px 10px;
-	border: 5px solid white;
-	margin-left: 50px;
-	font-size: 30px;
-	border-radius: 20px;
-	margin-top: 8px;
-}
-
-#div1{
-	margin-top: -5px;
-}
-
-#link{
-	text-decoration: none;
-	padding: 15px 15px;
-	color: white;
-}
-
-#link1{
-	text-decoration: none;
-	padding: 15px 15px;
-	color: white;
-	margin-right: 50px;	
-}
-
-#link:hover{
-	background: orange;
-	border-radius: 20px;
-}
-
-#link1:hover{
-	background: orange;
-	border-radius: 20px;
-}
-
-#div2{
-	width: 1870px;
-	height: 600px;
-	margin-top: 30px;
-}
-
-#div3{
-	width: 400px;
-	height: 500px;
-	float: left;
-	margin-left: 50px;
-}
-
-.btn{
-	background: #f28231;
-	color: white;
-	font-weight: bold;
-	border-radius: 30px;
-	letter-spacing: 1px;
-	padding: 8px 30px;
-	margin-top: 18px;
-}
-
-.btn:hover{
-	color: black;
-}
-
-#div3:hover{
-	box-shadow: 0px 0px 0px 4px orange;
-	border-radius: 16px;
-}
-
-#div3a{
-	width: 400px; 
-	height: 80px; 
-	background: lightgrey; 
-	border-radius: 15px 15px 0px 0px
-}
-
-#div3:hover > #div3a{
-	background: orange;
-}
-
-#div4{
-	float: left;
-}
-
-#btn{
-	background: orange;
-}
-
-#img:hover{
-	box-shadow: 0px 0px 0px 3px orange;
-	border-radius: 50%;
-	text-decoration: none	;
-}
-
-#navbar2{
-	width: 1855px;
-	height: 90px;
-	background: #323548;
-	float: left;
-	margin-top: -100px;
-	border-radius: 8px;
-}
-</style>
 
 <body>
 <div id="divx">
 <div id="maindiv">
+
+	<!-- Navbar Start -->
+
 	<nav class="navbar navbar" >
 		<a href="#"><h2 id="logo">NXTWAYS</h2></a>
 		<div id="div1">
@@ -143,16 +20,33 @@
 			<a id="link" href="#">Portfolio</a>
 			<a id="link" href="#">Pricing</a>
  			<a id="link" href="#">Team</a>
-			<a id="link" href="#">Drop Down</a>
-			<a id="link1" href="#">Contact</a>
+ 				<div class="dropdown" style="float: left;">
+ 					<button id="btn3" class="btnn btn dropdown-toggle" data-toggle="dropdown">Drop Down</button>
+ 					<div class="dropdown-menu">
+ 						<a href="#" class="dropdown-item">Link1</a>
+ 						<a href="#" class="dropdown-item">Link2</a>
+ 					</div>
+ 				</div>
+			<a id="link1" href="#div4">Contact</a>
 		</div>
 	</nav>
 	
+	<!-- Navbar End -->
+
+
+	<!-- Image Start-->
+
 	<center>
 	<div id="div2">
 		<img src="1.jpg" style="width: 1600px; height: 600px; border-radius: 50px;">
 	</div>
 	</center>
+
+	<!-- Image End -->
+
+
+	<!-- Pricing Start -->
+
 	<h2 style="margin-top: 30px; font-weight: bold; margin-left: 80px; margin-bottom: 25px; text-align: center;">OUR COMPETING PRICES</h2>
 
 	<div id="div3">
@@ -228,6 +122,11 @@
 		</div>
 	</div>
 
+	<!-- Pricing End -->
+
+
+	<!-- Contact Start -->
+
 	<div id="div4">
 		<h5 style="font-family: carlito; color: grey; margin-left: 80px; margin-top: 80px;">CONTACT</h5>
 		<hr style="color: orange; opacity: 1; margin-top: -20px; margin-left: 170px; width: 200px	; height: 2px">
@@ -260,6 +159,11 @@
 		</div>
 	</div>
 
+	<!-- Contact End -->
+
+
+	<!-- Navbar Start -->
+
 	<div id="nav2">
 		<div id="navbar2">
 			<div style="margin-left: 850px; margin-top: 7px;float: left;">
@@ -287,6 +191,8 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Navbar End -->
 </div>
 </div>
 

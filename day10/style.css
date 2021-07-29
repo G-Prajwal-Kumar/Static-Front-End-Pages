@@ -1,0 +1,147 @@
+#divx{
+	height: 2030px;
+	width: 1903px;
+	background: whitesmoke;
+	margin: 0 auto;
+}
+
+#maindiv{
+	height: 2030px;
+	width: 1870px;
+	padding: 25px 25px;
+}
+.navbar{
+	width: 1855px;
+	height: 81px;
+	background: #323548;
+	border-radius: 8px;
+}
+
+#logo{
+	float: left;
+	color: white;
+	background: darkturquoise;
+	padding: 5px 10px;
+	border: 5px solid white;
+	margin-left: 50px;
+	font-size: 30px;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+
+#div1{
+	margin-top: -5px;
+}
+
+#link{
+	text-decoration: none;
+	padding: 15px 15px;
+	color: white;
+	float: left;
+	margin-top: 2px;
+}
+
+#btn3{
+	margin-top: 2px;
+	background: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: none;
+	color: white;
+	font-family: carlito;
+	font-weight: lighter;
+	border-radius: 20px;
+	height: 55px;
+}
+
+#link1{
+	text-decoration: none;
+	padding: 15px 15px;
+	color: white;
+	margin-right: 50px;	
+	float: left;
+	margin-top: 2px;
+}
+
+#link:hover{
+	background: orange;
+	border-radius: 20px;
+}
+
+
+#btn3:hover{
+	background: orange;
+}
+
+
+#link1:hover{
+	background: orange;
+	border-radius: 20px;
+}
+
+#div2{
+	width: 1870px;
+	height: 600px;
+	margin-top: 30px;
+}
+
+#div3{
+	width: 400px;
+	height: 500px;
+	float: left;
+	margin-left: 50px;
+}
+
+.btn{
+	background: #f28231;
+	color: white;
+	font-weight: bold;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	padding: 8px 30px;
+	margin-top: 18px;
+}
+
+.btn:hover{
+	color: black;
+}
+
+#div3:hover{
+	box-shadow: 0px 0px 0px 4px orange;
+	border-radius: 16px;
+}
+
+#div3a{
+	width: 400px; 
+	height: 80px; 
+	background: lightgrey; 
+	border-radius: 15px 15px 0px 0px
+}
+
+#div3:hover > #div3a{
+	background: orange;
+}
+
+#div4{
+	float: left;
+}
+
+#btn{
+	background: orange;
+}
+
+#img:hover{
+	box-shadow: 0px 0px 0px 3px orange;
+	border-radius: 50%;
+	text-decoration: none	;
+}
+
+#navbar2{
+	width: 1855px;
+	height: 90px;
+	background: #323548;
+	float: left;
+	margin-top: -100px;
+	border-radius: 8px;
+}
+
