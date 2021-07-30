@@ -58,7 +58,12 @@
 .dropdown-menu{
 	margin-top: 0px;
 	background: grey;
-	border: 3px solid skyblue;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+#dropdown2{
+	border-radius: 10px;
 }
 
 .dropdown-item{
@@ -90,6 +95,9 @@
 	display: block;
 }
 
+#dropdown2:hover > #dropdown-menu2{
+	display: block;
+}
 
 #link1:hover{
 	background: orange;

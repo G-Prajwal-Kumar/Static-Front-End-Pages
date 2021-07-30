@@ -31,12 +31,18 @@
 			<a id="link" href="#">Pricing</a>
  			<a id="link" href="#">Team</a>
  				<div class="dropdown" style="float: left;">
- 					<button id="btn3" class="btnn btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop Down</button>
- 					<div class="dropdown-menu" aria-labelledby="btn3">
- 						<a href="#" class="dropdown-item">Link1</a>
- 						<a href="#" class="dropdown-item">Link2</a>
- 						<a href="#" class="dropdown-item">Link2</a>
- 					</div>
+ 					<button id="btn3" class="btnn btn dropdown-toggle" aria-expanded="false">Drop Down</button>
+ 					<ul class="dropdown-menu" aria-labelledby="btn3">
+ 						<li href="#" class="dropdown-item">Link1</li>
+ 						<li href="#" class="dropdown-item">Link2</li>
+ 						<li class="dropdown-submenu dropleft" id="dropdown2">
+ 							<button href="#" class="dropdown-item dropdown-toggle">dropdown 2</button>
+ 								<ul class="dropdown-menu" id="dropdown-menu2">
+ 									<li class="dropdown-item">Link 2.1</li>
+ 									<li class="dropdown-item">Link 2.1</li>
+ 								</ul>
+ 						</li>	
+ 					</ul>
  				</div>
 			<a id="link1" href="#div4">Contact</a>
 		</div>
