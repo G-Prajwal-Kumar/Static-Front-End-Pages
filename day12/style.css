@@ -1,0 +1,313 @@
+#body{
+	margin: xpx;
+}
+
+#maindiv{
+	width: 1903px;
+	height: 969px;
+	background: lightblue;
+	border-radius: 40px;
+}
+
+#bar{
+	width: 1795px;
+	height: 900px;
+	background: white;
+	float: left;
+	margin-left: 55px;
+	margin-top: 34.5px;
+}
+
+#logo{
+	width: 210px;
+	height: 70px;
+	background: white;
+	float: left;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+#logoname{
+	font-family: franklin gothic;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+#search{
+	width: 1585px;
+	height: 70px;
+	background: white;
+	float: right;
+	border-bottom: 1px solid lightgrey;
+}
+
+#icon1{
+	float: left;
+	font-size: 23px;
+	margin-left: 25px;
+	margin-top: 23px;
+}
+
+#searchbar{
+	width: 1100px;
+	height: 40px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+	border: none;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+}
+
+#icon2{
+	float: left;
+	font-size: 18px;
+	margin-left: 120px;
+	margin-top: 25px;
+	color: grey;
+}
+
+#icon3{
+	float: left;
+	font-size: 18px;
+	margin-left: 30px;
+	margin-top: 25px;
+	color: grey;
+}
+
+#icon2:hover ,#icon3:hover{
+	color: black;
+}
+
+#acct{
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+#acctname{
+	background: none;
+	color: grey;
+	font-family: franklin gothic;
+}
+
+#image1{
+	width: 30px;
+	margin-left: 10px;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+
+#acctname:hover{
+	color: black;
+}
+
+#acctname:hover > #image1{
+	border: 1px solid orangered;
+}
+
+#acct:hover > #acctmenu{
+	display: block;	
+}
+
+#divleft{
+	width: 210px;
+	height: 830px;
+	background: white;
+	float: left;
+	border-right: 1px solid lightgrey;
+}
+
+#links{
+	font-family: franklin gothic;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+#links:hover{
+	color: grey;
+}
+
+#divmiddle{
+	width: 1585px;
+	height: 830px;
+	background: whitesmoke;
+	float: right;
+}
+
+#stories{
+	width: 250px;
+	height: 300px;
+	background: white;
+	float: right;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 1px solid lightgrey;
+}
+
+#storiesname{
+	font-family: franklin gothic;
+	color: lightgrey;
+	margin-left: 25px;
+	margin-top: 15px;
+	float: left;
+	font-weight: lighter;
+}
+
+#stories1:hover > #dropdown-menu1{
+	display: block;
+	margin-left: 65px;
+	margin-top: 45px;
+}
+
+#option1::after{
+	content: none;
+}
+
+#option1{
+	font-size: 25px;
+	margin-top: -4px;
+	float: right;
+	margin-right: 10px;
+	color: grey;
+}
+
+#option1:hover{
+	color: black;
+}
+
+#people{
+	width: 225px;
+	height: 250px;
+	float: left;
+	margin-top: 2px;
+}
+
+#storieslist{
+	list-style: none;
+}
+
+#place1{
+	width: 225px;
+	height: 55px;
+}
+
+#dp1{
+	margin-top: 5px;
+	width: 45px;
+	margin-left: 15px;
+	border: 2px solid orange;
+	padding: 2px 2px;
+	border-radius: 50%;
+}
+
+#peoplediv{
+	height: 55px;
+	width: 150px;
+	float: right;
+}
+
+#person1{
+	font-family: franklin gothic;
+	margin-top: 8px;
+	margin-left: 0px;
+	color: black;
+}
+
+#person1time{
+	font-family: franklin gothic;
+	color: grey;
+	font-size: 10px;
+	margin-top: -20px;
+	margin-left: 0px;
+}
+
+#contacts{
+	width: 250px;
+	height: 470px;
+	background: white;
+	float: right;
+	border-radius: 5px;
+	margin-top: 337px;
+	margin-right: -250px;
+	border: 1px solid lightgrey;
+}
+
+#contactsname{
+	font-family: franklin gothic;
+	color: lightgrey;
+	margin-left: 25px;
+	margin-top: 15px;
+	float: left;
+	font-weight: lighter;
+}
+
+#place2{
+	width: 225px;
+	height: 55px;
+	float: left;
+}
+
+#dp2{
+	margin-top: 5px;
+	width: 45px;
+	margin-left: 15px;
+	padding: 2px 2px;
+	border-radius: 50%;
+	float: left;
+}
+
+#person2{
+	font-family: franklin gothic;
+	margin-top: 15px;
+	margin-left: 15px;
+	color: black;
+
+}
+
+#peoplediv1{
+	height: 55px;
+	width: 150px;
+	float: left;
+}
+
+#profilediv{
+	width: 1275px;
+	height: 365px;
+	background: white;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+
+#background1{
+	border-radius: 4px 4px 0px 0px;
+	width: 1273.5px;
+
+}
+
+#name{
+	color: white;
+	font-family: franklin gothic;
+	float: left;
+	position: absolute;
+	margin-top: -60px;
+	margin-left: 290px;
+}
+
+#profileimg{
+	width: 170px;
+	margin-top: -120px;
+	margin-left: 100px;
+	border: 4px solid white;
+	border-radius: 50%;
+}
