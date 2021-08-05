@@ -4,14 +4,14 @@
 
 #maindiv{
 	width: 1903px;
-	height: 969px;
+	height: 2780px;
 	background: lightblue;
 	border-radius: 40px;
 }
 
 #bar{
 	width: 1795px;
-	height: 900px;
+	height: 2715px;
 	background: white;
 	float: left;
 	margin-left: 55px;
@@ -113,7 +113,7 @@
 
 #divleft{
 	width: 210px;
-	height: 830px;
+	height: 2645px;
 	background: white;
 	float: left;
 	border-right: 1px solid lightgrey;
@@ -136,12 +136,12 @@
 
 #divmiddle{
 	width: 1585px;
-	height: 830px;
+	height: 2645px;
 	background: whitesmoke;
 	float: right;
 }
 
-#stories{
+#story{
 	width: 250px;
 	height: 300px;
 	background: white;
@@ -152,35 +152,41 @@
 	border: 1px solid lightgrey;
 }
 
+#stories{
+	margin-top: -42px;
+}
+
+#storiesbtn1{
+	font-size: 25px;
+	color: grey;
+	float: right;
+	margin-top: -10px;
+}
+
+#stories:hover > .dropdown-menu{
+	color: black;
+	display: block;
+}
+
 #storiesname{
 	font-family: franklin gothic;
 	color: lightgrey;
 	margin-left: 25px;
 	margin-top: 15px;
-	float: left;
 	font-weight: lighter;
 }
 
-#stories1:hover > #dropdown-menu1{
+#stories:hover > #menu1{
 	display: block;
-	margin-left: 65px;
-	margin-top: 45px;
 }
 
-#option1::after{
+#menu1{
+	margin-left: 60px;
+	margin-top: 35px;
+}
+
+#storiesbtn1::after{
 	content: none;
-}
-
-#option1{
-	font-size: 25px;
-	margin-top: -4px;
-	float: right;
-	margin-right: 10px;
-	color: grey;
-}
-
-#option1:hover{
-	color: black;
 }
 
 #people{
@@ -229,7 +235,7 @@
 	margin-left: 0px;
 }
 
-#contacts{
+#contact{
 	width: 250px;
 	height: 470px;
 	background: white;
@@ -240,12 +246,35 @@
 	border: 1px solid lightgrey;
 }
 
+#contacts{
+	margin-top: -42px;
+}
+
+#contactsbtn{
+	font-size: 25px;
+	color: grey;
+	float: right;
+	margin-top: -10px;
+}
+
+#contacts:hover > #menu2{
+	display: block;
+}
+
+#menu2{
+	margin-left: 60px;
+	margin-top: 35px;
+}
+
+#contactsbtn::after{
+	content: none;
+}
+
 #contactsname{
 	font-family: franklin gothic;
 	color: lightgrey;
 	margin-left: 25px;
 	margin-top: 15px;
-	float: left;
 	font-weight: lighter;
 }
 
@@ -292,7 +321,6 @@
 #background1{
 	border-radius: 4px 4px 0px 0px;
 	width: 1273.5px;
-
 }
 
 #name{
@@ -310,4 +338,424 @@
 	margin-left: 100px;
 	border: 4px solid white;
 	border-radius: 50%;
+}
+
+#profilelist{
+	float: left;
+	width: 1274px;
+	height: 65px;
+	margin-top: -50px;
+}
+
+#profiledatabgbtn{
+	top: 443px;
+	left: 726px;
+	position: absolute;
+	width: 85px;
+	height: 30px;
+	background: lightgrey;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+#profilebtnbox{
+	width: 500px;
+	height: 30px;
+}
+
+#profiledata{
+	color: grey;
+	font-family: franklin gothic;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+	background: none;
+	float: left;
+	margin-left: 45px;
+}
+
+#profiledata:hover{
+	color: black;
+}
+
+#profiledata1{
+	color: grey;
+	font-family: franklin gothic;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+	background: none;
+	float: left;
+	margin-left: 25px;
+}
+
+#profiledata1:hover{
+	color: black;
+}
+
+#timeline{
+	width: 1275px;
+	height: 2240px;
+	float: left;
+	margin-left: 20px;
+}
+
+#timelinexyz{
+	width: 1275px;
+	height: 2240px;
+	float: left;
+	position: relative;
+	margin-top: 20px;
+	left: 0px;
+	transition: .5s;
+}
+
+#introduction{
+	width: 350px;
+	height: 200px;
+	background: white;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	float: left;
+	margin-top: 0px;
+}
+
+#intro{
+	margin-top: -42px;
+	float: right;
+}
+
+#introbtn{
+	font-size: 25px;
+	color: grey;
+	float: right;
+	margin-top: -10px;
+}
+
+#intro:hover > #menu3{
+	display: block;
+}
+
+#menu3{
+	margin-left: -125px;
+	margin-top: -5px;
+}
+
+#introbtn::after{
+	content: none;
+}
+
+#txt1{
+	margin-top: 20px;
+	margin-left: 15px;
+	font-family: franklin gothic;
+}
+
+#timelineleft{
+	width: 350px;
+	height: 600px;
+}
+
+#travel{
+	width: 350px;
+	height: 300px;
+	background: white;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	float: left;
+	margin-top: 20px;
+}
+
+#background2{
+	width: 349px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#txt2{
+	font-family: franklin gothic;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 35px;
+}
+
+#txt3{
+	font-family: franklin gothic;
+	color: grey;
+	font-size: 14px;
+	margin-left: 35px;
+	margin-top: -18px;
+}
+
+#mypages{
+	width: 350px;
+	height: 275px;
+	background: white;
+	float: left;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+
+#timelineright{
+	width: 905px;
+	height: 800px;
+	float: right;
+	margin-top: -600px;
+}
+
+#uploadopts{
+	width: 905px;
+	height: 250px;
+	background: white;
+	border-radius: 5px;
+	float: left;
+	border: 1px solid lightgrey;
+}
+
+#status{
+	height: 190px;
+	width: 905px;
+	position: relative;
+	left: 0px;
+	transition: .5s;
+}
+
+.button-box{
+	width: 260px;
+	position: relative;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+#btn3{
+	padding: 5px 15px;
+	cursor: pointer;
+	position: relative;
+	border: none;
+	background: none;
+}
+
+#btnbg{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 76px;
+	height: 100%;
+	background: lightgrey;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+#statusbtn{
+	width: 905px;
+	height: 192px;
+}
+
+#image2{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#statuswrite{
+	width: 87%;
+	height: 70px;
+	margin-left: 90px;
+	margin-top: -57px;
+	border: none;
+}
+
+#icn1{
+	margin-top: 20px;
+	margin-left: 40px;
+	color: black;
+}
+
+#dpd3{
+	float: right;
+}
+
+#dpd3:hover > #dpd3menu{
+	display: block;
+}
+
+#selectopt{
+	float: right;
+	margin-top: 11px;
+	margin-right: 20px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	background: whitesmoke;
+}
+
+#btn4{
+	float: right;
+	margin-top: 11px;
+	margin-right: 30px;
+	padding-left: 15px;
+	padding-right: 15px
+}
+
+#photos{
+	width: 905px;
+	height: 190px;
+	position: relative;
+	left: 905px;
+	top: -190px;
+	transition: .5s;
+}
+
+#image4{
+	border-radius: 10px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+
+#image3{
+	border-radius: 10px;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+
+#videos{
+	width: 905px;
+	height: 190px;
+	position: relative;
+	transition: .5s;
+	left: 1810px;
+	top: -380px;
+}
+
+#feed{
+	width: 905px;
+	height: 635px;
+	background: white;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	float: left;
+	margin-top: 20px;
+}
+
+#feedopt{
+	margin-top: -42px;
+	float: right;
+}
+
+#feedbtn{
+	font-size: 25px;
+	color: grey;
+	float: right;
+	margin-top: 40px;
+	margin-right: 15px;
+}
+
+#feedopt:hover > #feedmenu{
+	display: block;
+}
+
+#feedmenu{
+	margin-left: -125px;
+	margin-top: -5px;
+}
+
+#feedbtn::after{
+	content: none;
+}
+
+#image5{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#feedname{
+	margin-left: 80px;
+	font-size: 16px;
+	margin-top: -43px;
+}
+
+#feedname1{
+	color: grey;
+	font-weight: bold;
+	font-size: 10px;
+	margin-left: 80px;
+	margin-top: -18px ;
+}
+
+#feedname2{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#feedimg1{
+	margin-left: 20px;
+	border-radius: 5px;
+}
+
+#feedimg2{
+	border-radius: 5px;
+	margin-top: -260px;
+	margin-left: 13px;
+}
+
+#feedimg3{
+	border-radius: 5px;
+	margin-top: -240px;
+	margin-left: 460px;
+}
+
+#about{
+	width: 1275px;
+	height: 2240px;
+	margin-top: 20px;
+	float: left;
+	position: relative;
+	left: 1295px;
+	top: -2260px;
+	background: lightgrey;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+#friends{
+	width: 1275px;
+	height: 2240px;
+	margin-top: 20px;
+	float: left;
+	position: relative;
+	left: 2570px;
+	top: -4520px;
+	background: lightcyan;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+#photos1{
+	width: 1275px;
+	height: 2240px;
+	margin-top: 20px;
+	float: left;
+	position: relative;
+	left: 3845px;
+	top: -6780px;
+	background: lightcoral;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+#more{
+	width: 1275px;
+	height: 2240px;
+	margin-top: 20px;
+	float: left;
+	position: relative;
+	left: 5120px;
+	top: -9040px;
+	background: lightsalmon;
+	border-radius: 5px;
+	transition: .5s;
 }
