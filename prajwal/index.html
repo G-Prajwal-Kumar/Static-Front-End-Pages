@@ -1,0 +1,117 @@
+<html>
+<head>
+	<title>Cappucino</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	<script src="https://kit.fontawesome.com/e21b3a0845.js" crossorigin="anonymous"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div id="maindiv">
+	
+	<div id="mainpagediv">
+		<center><h1 id="logo">Cappuccino</h1></center>
+		<a href="#"><p id="navitem1">About Us</p></a>
+		<a href="#"><p id="navitem2">Menu</p></a>
+		<a href="#"><p id="navitem2">Reservation</p></a>
+		<a href="#"><p id="navitem3">Contact</p></a>
+		<a href="#"><p id="navitem4">Gallery</p></a>
+		<a href="#"><p id="navitem4">News & Events</p></a>
+		<center><p id="cafe"><span style="color: sandybrown;">CAFE/</span>RESTAURANT</p></center>
+		<center><h1 id="logo1">Cappuccino</h1></center>
+		<p id="para1">It is a long established fact that a reader will be distracted by the readable<br>content of a page when looking at its layout.</p>
+		<button class="btn btn" id="btn1">Make Reservation</button>
+		<a href="#"><i class="bi bi-twitter" id="icon1"></i></a>
+		<a href="#"><i class="bi bi-instagram" id="icon2"></i></a>
+		<a href="#"><i class="bi bi-facebook" id="icon2"></i></a>
+		<a href="#"><i class="bi bi-linkedin" id="icon2"></i></a>
+		<a href="#"><i class="bi bi-geo-alt-fill" id="icon3"></i></a>
+		<p id="para2">Ameerpet, Hyderabad</p>
+	</div>
+
+	<div id="div2">
+		<div id="div2a">
+			<div id="imgs1">
+				<img src="img4.jpg" id="img4">
+				<img src="img3.jpg" id="img3">
+				<img src="img2.jpg" id="img2">
+			</div>
+			<div id="data1">
+				<center><h3 id="heading1">What is Lorem Ipsum?</h3></center>
+				<p id="para3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br>has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not<br>only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</div>
+		<div id="div2b">
+			<div id="data2">
+				<center><h3 id="heading2">What is Lorem Ipsum?</h3></center>
+				<p id="para4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum<br>has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not<br>only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+			<div id="imgs2">
+				<img src="img6.jpg" id="img6">
+				<img src="img7.jpg" id="img7">
+				<img src="img5.jpg" id="img5">
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+
+<script>
+$(document).ready(function(){
+	$("#mainpagediv").mouseenter(function(){
+		var a = $("#cafe");
+		var b = $("#logo1");
+		var c = $("#para1");
+		var d = $("#btn1");
+
+		a.animate({top: '300px', opacity: '100%'}, 500);
+		b.animate({top: '280px', opacity: '100%'}, 500);
+		c.animate({top: '290px', opacity: '100%'}, 500);
+		d.animate({top: '300px', opacity: '100%'}, 500);
+	})
+	$("#div2a").mouseenter(function(){
+		var e = $("#img4");
+		var f = $("#img3");
+		var g = $("#img2");
+		var h = $("#heading1");
+		var i = $("#para3");
+
+		e.animate({top: '30px', opacity: '100%'}, 500);
+		f.animate({left: '150px', opacity: '100%'}, 500);
+		g.animate({left: '-280px', opacity: '100%'}, 500);
+		h.animate({top: '130px', opacity: '100%'}, 500);
+		i.animate({top: '140px', opacity: '100%'}, 500);
+	})
+	$("#div2b").mouseenter(function(){
+		var j = $("#heading2");
+		var k = $("#para4");
+		var l = $("#img6");
+		var m = $("#img7");
+		var n = $("#img5");
+
+		j.animate({top: '130px', opacity: '100%'}, 500);
+		k.animate({top: '140px', opacity: '100%'}, 500);
+		l.animate({top: '100px', opacity: '100%'}, 500);
+		m.animate({left: '-20px', opacity: '100%'}, 500);
+		n.animate({left: '-250px', opacity: '100%'}, 500);
+	})
+})	
+
+</script>
+</html>
