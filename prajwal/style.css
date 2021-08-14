@@ -4,7 +4,7 @@ body{
 
 #maindiv{
 	width: 1903px;
-	height: 1938px;
+	height: 2907px;
 	margin: 0 auto;
 }
 
@@ -280,4 +280,183 @@ body{
 	box-shadow: 5px 5px 30px black;
 	border-radius: 10px;
 	opacity: 0%;
+}
+
+#div3{
+	width: 1903px;
+	height: 969px;
+}
+
+#heading3{
+	font-family: calibri;
+	font-weight: bold;
+	position: relative;
+	top: 0px;
+	opacity: 0%;
+}
+
+#para5{
+	position: relative;
+	top: 10px;
+	letter-spacing: 1px;
+	opacity: 0%;
+}
+
+#btndiv{
+	position: relative;
+	top: 0px;
+	left: -50px;
+	opacity: 0%;
+}
+
+#btnbg{
+	width: 70px;
+	height: 30px;
+	position: relative;
+	background: sandybrown;
+	top: 80px;
+	left: -132px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px sandybrown;
+	transition: .5s;
+}
+
+#btn2{
+	color: black;
+	background: none;
+	border: none;
+	font-weight: bolder;
+	font-size: 18px;
+	position: relative;
+	top: 50px;
+	padding-right: 20px;
+}
+
+#menu{
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	top: 80px;
+	left: 50px;
+	opacity: 0%;
+}
+
+#drinksmenu{
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	left: 0px;
+	transition: .5s;
+}
+
+#mainsmenu{
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	left: 1000px;
+	top: -600px;
+	transition: .5s;
+}
+
+#lunchmenu{
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	left: 2000px;
+	top: -1200px;
+	transition: .5s;
+}
+
+#dinnermenu{
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	left: 3000px;
+	top: -1800px;
+	transition: .5s;
+}
+
+#menuitem1{
+	width: 485px;
+	height: 150px;
+	float: left;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+#menuitem2{
+	width: 485px;
+	height: 150px;
+	float: right;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+#pdts1{
+	width: 120px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px black;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#pdts2{
+	width: 120px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px black;
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+#itemdes{
+	width: 285px;
+	height: 130px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#heading4{
+	font-family: calibri;
+	text-align: left;
+	margin-top: 15px;
+}
+
+#para6{
+	color: grey;
+	font-family: calibri;
+	text-align: left;
+}
+
+#price1{
+	font-family: calibri;
+	float: right;
+	margin-top: 60px;
+}
+
+#itemdes1{
+	width: 285px;
+	height: 130px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#heading5{
+	font-family: calibri;
+	text-align: right;
+	margin-top: 15px;
+}
+
+#para7{
+	color: grey;
+	font-family: calibri;
+	text-align: right;
+}
+#price2{
+	font-family: calibri;
+	float: left;
+	margin-top: 60px;
 }
