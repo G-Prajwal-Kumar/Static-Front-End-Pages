@@ -470,11 +470,10 @@ body{
 
 #feedback{
 	width: 1000px;
-	height: 600px;
+	height: 450px;
 	float: left;
 	margin-left: 451.5px;
 	margin-top: 184.5px;
-	background: lightblue;
 }
 
 #feedbackform{
@@ -484,25 +483,25 @@ body{
 }
 
 #first{
-	width: 49%;
+	width: 49.5%;
 	float: left;
 	margin-top: 20px;
 }
 
 #last{
-	width: 49%;
+	width: 49.5%;
 	float: right;
 	margin-top: 20px;
 }
 
 #tel{
-	width: 49%;
+	width: 49.5%;
 	float: left;
 	margin-top: 15px;
 }
 
 #email{
-	width: 49%;
+	width: 49.5%;
 	float: right;
 	margin-top: 15px;
 }
@@ -510,4 +509,59 @@ body{
 #feedbacktxt{
 	margin-top: 15px;
 	float: left;
+}
+
+#feedbackbox{
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin-left: 350px;
+	margin-top: 50px;
+}
+
+#para8{
+	color: white;
+	font-size: 20px;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+#btn3{
+	background: none;
+	border: none;
+}
+
+#icon4{
+	color: sandybrown;
+	font-size: 25px;
+	opacity: 30%;
+	margin-left: 0px;
+}
+
+#icon5{
+	color: sandybrown;
+	font-size: 25px;
+	opacity: 30%;
+	margin-left: 5px;
+}
+
+#icon6{
+	color: sandybrown;
+	font-size: 25px;
+	opacity: 30%;
+	margin-left: 5px;
+}
+
+#icon7{
+	color: sandybrown;
+	font-size: 25px;
+	opacity: 30%;
+	margin-left: 5px;
+}
+
+#icon8{
+	color: sandybrown;
+	font-size: 25px;
+	opacity: 30%;
+	margin-left: 5px;
 }
