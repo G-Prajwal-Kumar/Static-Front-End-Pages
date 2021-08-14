@@ -285,19 +285,20 @@ body{
 #div3{
 	width: 1903px;
 	height: 969px;
+	background: whitesmoke;
 }
 
 #heading3{
 	font-family: calibri;
 	font-weight: bold;
 	position: relative;
-	top: 0px;
+	top: -60px;
 	opacity: 0%;
 }
 
 #para5{
 	position: relative;
-	top: 10px;
+	top: -20px;
 	letter-spacing: 1px;
 	opacity: 0%;
 }
@@ -305,7 +306,7 @@ body{
 #btndiv{
 	position: relative;
 	top: 0px;
-	left: -50px;
+	left: -80px;
 	opacity: 0%;
 }
 
@@ -337,6 +338,8 @@ body{
 	height: 600px;
 	position: relative;
 	top: 80px;
+	left: 80px;
+	opacity: 0%;
 }
 
 #drinksmenu{
