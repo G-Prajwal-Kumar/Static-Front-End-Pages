@@ -461,3 +461,53 @@ body{
 	float: left;
 	margin-top: 60px;
 }
+
+#div4{
+	width: 1903px;
+	height: 969px;
+	background-image: url(bg2.jpg);
+}
+
+#feedback{
+	width: 1000px;
+	height: 600px;
+	float: left;
+	margin-left: 451.5px;
+	margin-top: 184.5px;
+	background: lightblue;
+}
+
+#feedbackform{
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#first{
+	width: 49%;
+	float: left;
+	margin-top: 20px;
+}
+
+#last{
+	width: 49%;
+	float: right;
+	margin-top: 20px;
+}
+
+#tel{
+	width: 49%;
+	float: left;
+	margin-top: 15px;
+}
+
+#email{
+	width: 49%;
+	float: right;
+	margin-top: 15px;
+}
+
+#feedbacktxt{
+	margin-top: 15px;
+	float: left;
+}
