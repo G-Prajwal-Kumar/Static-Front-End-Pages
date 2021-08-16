@@ -74,10 +74,10 @@
 			<p id="para5">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 			<div id="btndiv">
 				<div id="btnbg"></div>
-				<button id="btn2" onclick="drinks()">Drinks</button>
-				<button id="btn2" onclick="mains()">Mains</button>
-				<button id="btn2" onclick="lunch()">Lunch</button>
-				<button id="btn2" onclick="dinner()">Dinner</button>
+				<button id="btn2a" onclick="drinks()">Drinks</button>
+				<button id="btn2b" onclick="mains()">Mains</button>
+				<button id="btn2c" onclick="lunch()">Lunch</button>
+				<button id="btn2d" onclick="dinner()">Dinner</button>
 			</div>
 			<div id="menu" class="overflow-hidden">
 				<div id="drinksmenu">
@@ -379,139 +379,123 @@
 
 <script>
 
-var o = document.getElementById("drinksmenu");
-var p = document.getElementById("mainsmenu");
-var q = document.getElementById("lunchmenu");
-var r = document.getElementById("dinnermenu");
-var s = document.getElementById("btnbg");
-var aa = document.getElementById("icon4");
-var ab = document.getElementById("icon5");
-var ac = document.getElementById("icon6");
-var ad = document.getElementById("icon7");
-var ae = document.getElementById("icon8");
-
-
-function drinks() {
-	o.style.left = "0px";
-	p.style.left = "1000px";
-	q.style.left = "2000px";
-	r.style.left = "3000px";
-	s.style.left = "-132px";
-}
-
-function mains() {
-	o.style.left = "-1000px";
-	p.style.left = "0px";
-	q.style.left = "1000px";
-	r.style.left = "2000px";
-	s.style.left = "-49px";
-}
-
-function lunch() {
-	o.style.left = "-2000px";
-	p.style.left = "-1000px";
-	q.style.left = "0px";
-	r.style.left = "1000px";
-	s.style.left = "33px";
-}
-
-function dinner() {
-	o.style.left = "-3000px";
-	p.style.left = "-2000px";
-	q.style.left = "-1000px";
-	r.style.left = "0px";
-	s.style.left = "117px";
-}
-
-function icon4() {
-	aa.style.opacity = "100%";
-	ab.style.opacity = "30%";
-	ac.style.opacity = "30%";
-	ad.style.opacity = "30%";
-	ae.style.opacity = "30%";
-}
-
-function icon5() {
-	aa.style.opacity = "100%";
-	ab.style.opacity = "100%";
-	ac.style.opacity = "30%";
-	ad.style.opacity = "30%";
-	ae.style.opacity = "30%";
-}
-
-function icon6() {
-	aa.style.opacity = "100%";
-	ab.style.opacity = "100%";
-	ac.style.opacity = "100%";
-	ad.style.opacity = "30%";
-	ae.style.opacity = "30%";
-}
-
-function icon7() {
-	aa.style.opacity = "100%";
-	ab.style.opacity = "100%";
-	ac.style.opacity = "100%";
-	ad.style.opacity = "100%";
-	ae.style.opacity = "30%";	
-}
-
-function icon8() {
-	aa.style.opacity = "100%";
-	ab.style.opacity = "100%";
-	ac.style.opacity = "100%";
-	ad.style.opacity = "100%";
-	ae.style.opacity = "100%";
-}
-
 $(document).ready(function(){
 	$("#mainpagediv").mouseenter(function(){
-		var a = $("#cafe");
-		var b = $("#logo1");
-		var c = $("#para1");
-		var d = $("#btn1");
 
-		a.animate({top: '300px', opacity: '100%'}, 500);
-		b.animate({top: '280px', opacity: '100%'}, 500);
-		c.animate({top: '290px', opacity: '100%'}, 500);
-		d.animate({top: '300px', opacity: '100%'}, 500);
+		$("#cafe").animate({top: '300px', opacity: '100%'}, 500);
+		$("#logo1").animate({top: '280px', opacity: '100%'}, 500);
+		$("#para1").animate({top: '290px', opacity: '100%'}, 500);
+		$("#btn1").animate({top: '300px', opacity: '100%'}, 500);
+
 	})
 	$("#div2a").mouseenter(function(){
-		var e = $("#img4");
-		var f = $("#img3");
-		var g = $("#img2");
-		var h = $("#heading1");
-		var i = $("#para3");
+		
+		$("#img4").animate({top: '30px', opacity: '100%'}, 500);
+		$("#img3").animate({left: '150px', opacity: '100%'}, 500);
+		$("#img2").animate({left: '-280px', opacity: '100%'}, 500);
+		$("#heading1").animate({top: '130px', opacity: '100%'}, 500);
+		$("#para3").animate({top: '140px', opacity: '100%'}, 500);
 
-		e.animate({top: '30px', opacity: '100%'}, 500);
-		f.animate({left: '150px', opacity: '100%'}, 500);
-		g.animate({left: '-280px', opacity: '100%'}, 500);
-		h.animate({top: '130px', opacity: '100%'}, 500);
-		i.animate({top: '140px', opacity: '100%'}, 500);
 	})
 	$("#div2b").mouseenter(function(){
-		var j = $("#heading2");
-		var k = $("#para4");
-		var l = $("#img6");
-		var m = $("#img7");
-		var n = $("#img5");
 
-		j.animate({top: '130px', opacity: '100%'}, 500);
-		k.animate({top: '140px', opacity: '100%'}, 500);
-		l.animate({top: '100px', opacity: '100%'}, 500);
-		m.animate({left: '-20px', opacity: '100%'}, 500);
-		n.animate({left: '-250px', opacity: '100%'}, 500);
+		$("#heading2").animate({top: '130px', opacity: '100%'}, 500);
+		$("#para4").animate({top: '140px', opacity: '100%'}, 500);
+		$("#img6").animate({top: '100px', opacity: '100%'}, 500);
+		$("#img7").animate({left: '-20px', opacity: '100%'}, 500);
+		$("#img5").animate({left: '-250px', opacity: '100%'}, 500);
+
 	})
+
 	$("#div3").mouseenter(function(){
-		var t = $("#heading3");
-		var u = $("#para5");
-		var v = $("#btndiv");
-		var w = $("#menu");
+		
+		$("#heading3").animate({top: '50px', opacity: '100%'}, 500);
+		$("#para5").animate({top: '60px', opacity: '100%'}, 500);
+		$("#btndiv").animate({left: '0px', opacity: '100%'}, 500);
+		$("#menu").animate({left: '0px', opacity: '100%'}, 500);
 
-		t.animate({top: '50px', opacity: '100%'}, 500);
-		u.animate({top: '60px', opacity: '100%'}, 500);
-		v.animate({left: '0px', opacity: '100%'}, 500);
-		w.animate({left: '0px', opacity: '100%'}, 500);
 	})
+
+	$("#btn2a").click(function(){
+
+		$("#drinksmenu").animate({left: '0px'}, 0);
+		$("#mainsmenu").animate({left: '1000px'}, 0);
+		$("#lunchmenu").animate({left: '2000px'}, 0);
+		$("#dinnermenu").animate({left: '3000px'}, 0);
+		$("#btnbg").animate({left: '-132px'}, 0);
+	})
+
+	$("#btn2b").click(function(){
+
+		$("#drinksmenu").animate({left: '-1000px'}, 0);
+		$("#mainsmenu").animate({left: '0px'}, 0);
+		$("#lunchmenu").animate({left: '1000px'}, 0);
+		$("#dinnermenu").animate({left: '2000px'}, 0);
+		$("#btnbg").animate({left: '-49px'}, 0);
+	})
+
+	$("#btn2c").click(function(){
+
+		$("#drinksmenu").animate({left: '-2000px'}, 0);
+		$("#mainsmenu").animate({left: '-1000px'}, 0);
+		$("#lunchmenu").animate({left: '0px'}, 0);
+		$("#dinnermenu").animate({left: '1000px'}, 0);
+		$("#btnbg").animate({left: '33px'}, 0);
+	})
+
+	$("#btn2d").click(function(){
+
+		$("#drinksmenu").animate({left: '-3000px'}, 0);
+		$("#mainsmenu").animate({left: '-2000px'}, 0);
+		$("#lunchmenu").animate({left: '-1000px'}, 0);
+		$("#dinnermenu").animate({left: '0px'}, 0);
+		$("#btnbg").animate({left: '117px'}, 0);
+	})
+
+	$("#icon4").click(function(){
+
+		$("#icon4").animate({opacity: '100%'}, 0);
+		$("#icon5").animate({opacity: '30%'}, 0);
+		$("#icon6").animate({opacity: '30%'}, 0);
+		$("#icon7").animate({opacity: '30%'}, 0);
+		$("#icon8").animate({opacity: '30%'}, 0);
+	})
+
+	$("#icon5").click(function(){
+
+		$("#icon4").animate({opacity: '100%'}, 0);
+		$("#icon5").animate({opacity: '100%'}, 0);
+		$("#icon6").animate({opacity: '30%'}, 0);
+		$("#icon7").animate({opacity: '30%'}, 0);
+		$("#icon8").animate({opacity: '30%'}, 0);
+	})
+
+	$("#icon6").click(function(){
+
+		$("#icon4").animate({opacity: '100%'}, 0);
+		$("#icon5").animate({opacity: '100%'}, 0);
+		$("#icon6").animate({opacity: '100%'}, 0);
+		$("#icon7").animate({opacity: '30%'}, 0);
+		$("#icon8").animate({opacity: '30%'}, 0);
+	})
+
+	$("#icon7").click(function(){
+
+		$("#icon4").animate({opacity: '100%'}, 0);
+		$("#icon5").animate({opacity: '100%'}, 0);
+		$("#icon6").animate({opacity: '100%'}, 0);
+		$("#icon7").animate({opacity: '100%'}, 0);
+		$("#icon8").animate({opacity: '30%'}, 0);
+	})
+
+	$("#icon8").click(function(){
+
+		$("#icon4").animate({opacity: '100%'}, 0);
+		$("#icon5").animate({opacity: '100%'}, 0);
+		$("#icon6").animate({opacity: '100%'}, 0);
+		$("#icon7").animate({opacity: '100%'}, 0);
+		$("#icon8").animate({opacity: '100%'}, 0);
+	})	
 })	
 
 </script>

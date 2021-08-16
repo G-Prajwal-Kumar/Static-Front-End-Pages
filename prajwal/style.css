@@ -322,7 +322,40 @@ body{
 	transition: .5s;
 }
 
-#btn2{
+#btn2a{
+	color: black;
+	background: none;
+	border: none;
+	font-weight: bolder;
+	font-size: 18px;
+	position: relative;
+	top: 50px;
+	padding-right: 20px;
+}
+
+#btn2b{
+	color: black;
+	background: none;
+	border: none;
+	font-weight: bolder;
+	font-size: 18px;
+	position: relative;
+	top: 50px;
+	padding-right: 20px;
+}
+
+#btn2c{
+	color: black;
+	background: none;
+	border: none;
+	font-weight: bolder;
+	font-size: 18px;
+	position: relative;
+	top: 50px;
+	padding-right: 20px;
+}
+
+#btn2d{
 	color: black;
 	background: none;
 	border: none;
