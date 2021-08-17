@@ -506,7 +506,7 @@ body{
 	height: 450px;
 	float: left;
 	margin-left: 451.5px;
-	margin-top: 184.5px;
+	margin-top: 160px;
 }
 
 #feedbackform{
@@ -597,4 +597,137 @@ body{
 	font-size: 25px;
 	opacity: 30%;
 	margin-left: 5px;
+}
+
+#endbar{
+	width: 1903px;
+	height: 250px;
+	background: black;
+	float: left;
+	margin-top: 108.5px;
+}
+
+#endbardiv1{
+	width: 400px;
+	height: 200px;
+	margin-top: 25px;
+	float: left;
+	margin-left: 331.3px;
+}
+#endbardiv2{
+	width: 400px;
+	height: 200px;
+	margin-top: 25px;
+	float: left;
+	margin-left: 20px;
+}
+#endbardiv3{
+	width: 400px;
+	height: 200px;
+	margin-top: 25px;
+	float: left;
+	margin-left: 20px;
+}
+
+#txt1{
+	color: sandybrown;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+#txt2{
+	color: white;
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: -10px;
+}
+
+#txt3{
+	color: white;
+	float: left;
+	margin-top: -11.5px;
+	margin-right: 10PX;
+}
+
+#txt4{
+	color: white;
+	margin-top: -5px;
+}
+
+#txt5{
+	color: sandybrown;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.bi-geo-alt-fill{
+	color: white;
+	float: left;
+	margin-top: -9px;
+	margin-right: 10px;
+}
+
+#txt6{
+	color: white;
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: -10px;
+}
+
+.bi-telephone-fill{
+	color: white;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+#txt7{
+	color: white;
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.bi-envelope-fill{
+	color: white;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+#txt8{
+	color: sandybrown;
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: -3px;
+}
+
+#txt9{
+	color: sandybrown;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+#txt10{
+	color: white;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-top: -10px;
+}
+
+#txt11{
+	color: white;
+	font-size: 13px;
+	font-style: italic;
+	margin-top: -15px;
 }
