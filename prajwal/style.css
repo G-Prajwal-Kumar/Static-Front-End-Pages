@@ -106,20 +106,24 @@ body{
 	color: sandybrown;
 }
 
+#divx{
+	margin-top: 600px;
+	width: 1903px;
+	height: 20px;
+}
+
 #icon1{
 	color: white;
-	position: relative;
-	top: 630px;
-	margin-left: 510px;
+	margin-left: 650px;
 	font-size: 20px;
+	float: left;
 }
 
 #icon2{
 	color: white;
-	position: relative;
-	top: 630px;
 	margin-left: 20px;
 	font-size: 20px;
+	float: left;
 }
 
 #icon1:hover ,#icon2:hover{
@@ -128,19 +132,19 @@ body{
 
 #icon3{
 	color: sandybrown;
-	position: relative;
-	top: 630px;
-	margin-left: 200px;
+	margin-left: 250px;
 	font-size: 20px;
+	float: left;
+	margin-top: 0px;
 }
 
 #para2{
 	color: white;
-	position: relative;
-	top: 590px;
-	margin-left: 1070px;
+	margin-left: 0px;
 	font-size: 18px;
 	letter-spacing: 1px;
+	margin-top: -5px;
+	float: left	;
 }
 
 #div2{
