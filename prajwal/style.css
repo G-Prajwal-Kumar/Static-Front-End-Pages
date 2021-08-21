@@ -11,7 +11,6 @@ body{
 #mainpagediv{
 	width: 1903px;
 	height: 969px;
-	background: lightblue;
 	background-image: url(img1.jpg);
 	background-repeat: no-repeat;
 }
