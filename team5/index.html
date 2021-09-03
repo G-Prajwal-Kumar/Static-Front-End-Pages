@@ -62,6 +62,97 @@
 			</div>
 		</div>
 	</div>
+	<div id="slideshow">
+		<h3 id="txt1">*SLIDESHOW*</h3>
+	</div>
+	<div id="maincategories">
+		<div id="cats">
+			<h3 id="txt2">*Category 1*</h3>
+		</div>
+		<div id="cats">
+			<h3 id="txt2">*Category 2*</h3>
+		</div>
+		<div id="cats">
+			<h3 id="txt2">*Category 3*</h3>
+		</div>
+		<div id="cats">
+			<h3 id="txt2">*Category 4*</h3>
+		</div>
+	</div>
+	<div id="products">
+		<div id="popularpdts">
+			<h3 id="txt3">Popular Products</h3>
+			<div id="pdtlist">
+				<div id="pdt1">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt2">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt3">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt4">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt5">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt6">
+					<p id="txt6">Product</p>
+				</div>
+			</div>
+		</div>
+		<div id="recommendedpdts">
+			<h3 id="txt4">Recommended Products</h3>
+			<div id="pdtlist">
+				<div id="pdt1">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt2">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt3">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt4">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt5">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt6">
+					<p id="txt6">Product</p>
+				</div>
+			</div>
+		</div>
+		<div id="recentlypdts">
+			<h3 id="txt5">Recently Viewed Products</h3>
+			<div id="pdtlist">
+				<div id="pdt1">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt2">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt3">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt4">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt5">
+					<p id="txt6">Product</p>
+				</div>
+				<div id="pdt6">
+					<p id="txt6">Product</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="endbar">
+		<h4 id="txt7">End Bar</h4>
+	</div>
 </div>
 </body>
 
@@ -70,29 +161,57 @@
 	var a = document.getElementById("cart");
 	var b = document.getElementById("wish");
 	var c = document.getElementById("search");
+	var d = document.getElementById("slideshow");
+	var e = document.getElementById("maincategories");
+	var f = document.getElementById("products");
+	var g = document.getElementById("endbar");
 
 	function cartopen(){
 		a.style.display = "block";
+		d.style.display = "none";
+		e.style.display = "none";
+		f.style.display = "none";
+		g.style.display = "none";
 	}
 
 	function cartclose(){
 		a.style.display = "none";
+		d.style.display = "block";
+		e.style.display = "flex";
+		f.style.display = "block";
+		g.style.display = "block";
 	}	
 
 	function wishopen(){
 		b.style.display = "block";
+		d.style.display = "none";
+		e.style.display = "none";
+		f.style.display = "none";
+		g.style.display = "none";
 	}
 
 	function wishclose(){
 		b.style.display = "none";
+		d.style.display = "block";
+		e.style.display = "flex";
+		f.style.display = "block";
+		g.style.display = "blocke";
 	}
 
 	function searchopen(){
 		c.style.display = "block";
+		d.style.display = "none";
+		e.style.display = "none";
+		f.style.display = "none";
+		g.style.display = "none";
 	}
 
 	function searchclose(){
 		c.style.display = "none";
+		d.style.display = "block";
+		e.style.display = "flex";
+		f.style.display = "block";
+		g.style.display = "block";
 	}
 </script>
 

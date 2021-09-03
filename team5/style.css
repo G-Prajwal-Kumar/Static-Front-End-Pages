@@ -5,13 +5,13 @@ body{
 #maindiv{
 	margin: 0 auto;
 	width: 1903px;
-	height: 969px;
+	height: 2229px;
+	background-image: url(bg.jpg);
 }
 
 #nav{
 	width: 1903px;
 	height: 80px;
-	background: lightblue;
 }
 
 #logoa{
@@ -20,8 +20,8 @@ body{
 
 #logo{
 	padding-top: 16px;
-	margin-left: 16px;
-	color: black;
+	margin-left: 25px;
+	color: white;
 }
 
 #navitems{
@@ -38,13 +38,12 @@ body{
 	letter-spacing: 2px;	
 	padding: 10px 20px;
 	border-radius: 20px;
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 #navitems1:hover{
-	background: black;
-	color: white;
+	color: greenyellow;
 	transition: .5s;
 }
 
@@ -57,7 +56,7 @@ body{
 	height: 35px;
 	float: right;
 	margin-right: 50px;
-	margin-top: -40px;
+	margin-top: -42px;
 }
 
 .bi-cart3{
@@ -65,11 +64,11 @@ body{
 	margin-left: 5px;
 	border-radius: 50%;
 	padding: 2px 6px;
+	color: white;
 }
 
 .bi-cart3:hover, .bi-heart:hover, .bi-search:hover{
-	background: black;
-	color: white;
+	color: greenyellow;
 }
 
 .bi-heart{
@@ -78,6 +77,7 @@ body{
 	padding: 2px 0px;
 	padding-left: 7px;
 	padding-right: 6px;
+	color: white;
 }
 
 .bi-search{
@@ -85,6 +85,7 @@ body{
 	margin-left: 10px;
 	border-radius: 50%;
 	padding: 2px 6px;
+	color: white;
 }
 
 #cart{
@@ -228,4 +229,143 @@ body{
 	float: left;
 	margin-left: 30px;
 	margin-top: 15px;
+}
+
+#slideshow{
+	width: 1903px;
+	height: 550px;
+	background: lightcoral;
+	border-radius: 15px;
+	margin-top: 20px;
+	display: block;
+}
+
+#txt1{
+	float: left;
+	margin-left: 900px;
+	margin-top: 250px;	
+}
+
+#maincategories{
+	width: 1500px;
+	height: 350px;
+	border-radius: 15px;
+	float: left;
+	margin-left: 201.5px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#cats{
+	width: 367.5px;
+	height: 350px;
+	background: lightgreen;
+	border-radius: 20px;
+}
+
+#txt2{
+	float: left;
+	margin-left: 105px;
+	margin-top: 160px;
+}
+
+
+#products{
+	float: left;
+	width: 1903px;
+	height: 969px;
+	margin-top: 20px;
+	justify-content: space-between;
+	display: block;
+}
+
+#popularpdts{
+	width: 1800px;
+	height: 313px;
+	background: grey;
+	border-radius: 20px;
+	margin-left: 51.5px;
+}
+#recommendedpdts{
+	width: 1800px;
+	height: 313px;
+	background: grey;
+	margin-top: 15px;
+	border-radius: 20px;
+	margin-left: 51.5px;
+}
+#recentlypdts{
+	width: 1800px;
+	height: 313px;
+	background: grey;
+	margin-top: 15px;
+	border-radius: 20px;
+	margin-left: 51.5px;
+}
+
+#txt3{
+	color: white;
+	font-family: monospace;
+	float: left;
+	margin-left: 785px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+#txt4{
+	color: white;
+	font-family: monospace;
+	float: left;
+	margin-left: 755px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+#txt5{
+	color: white;
+	font-family: monospace;
+	float: left;
+	margin-left: 725px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+#pdtlist{
+	width: 1750px;
+	height: 267px;
+	margin-left: 25px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+}
+
+#pdt1, #pdt2, #pdt3, #pdt4, #pdt5, #pdt6{
+	width: 283px;
+	height: 250px;
+	border-radius: 10px;
+	background: lightskyblue;
+}
+
+#txt6{
+	color: black;
+	font-family: monospace;
+	font-weight: bold;
+	margin-left: 110px;
+	margin-top: 115px;
+}
+
+#endbar{
+	width: 1903px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	display: block;
+}
+
+#txt7{
+	color: white;
+	float: left;
+	margin-left: 950px;
+	margin-top: 85px;
 }
