@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+}
+
+#maindiv{
+	margin: 0 auto;
+	width: 1903px;
+	height: 969px;
+}
+
+#nav{
+	width: 1903px;
+	height: 80px;
+	background: lightblue;
+}
+
+#logoa{
+	text-decoration: none;
+}
+
+#logo{
+	padding-top: 16px;
+	margin-left: 16px;
+	color: black;
+}
+
+#navitems{
+	display: flex;
+	width: 600px;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: -42px;
+}
+
+#navitems1{
+	font-family: monospace;
+	font-weight: bold;
+	letter-spacing: 2px;	
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+#navitems1:hover{
+	background: black;
+	color: white;
+	transition: .5s;
+}
+
+#navitems1:active{
+	text-decoration: underline;
+}
+
+#icons{
+	width: 100px;
+	height: 35px;
+	float: right;
+	margin-right: 50px;
+	margin-top: -40px;
+}
+
+.bi-cart3{
+	font-size: 25px;
+	margin-left: 10px;
+	border-radius: 50%;
+	padding: 2px 6px;
+}
+
+.bi-cart3:hover, .bi-heart:hover{
+	background: black;
+	color: white;
+}
+
+.bi-heart{
+	font-size: 25px;
+	border-radius: 50%;
+	padding: 2px 0px;
+	padding-left: 7px;
+	padding-right: 6px;
+}
+
+#cart{
+	position: fixed;
+	width: 1903px;
+	height: 969px;
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 0.7;
+	margin-top: -64px;
+	display: none;
+	transition: 1s;
+}
+
+#cartitem{
+	width: 1700px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 135px;
+	background: whitesmoke;
+	opacity: 1;
+	border-radius: 20px;
+}
+
+.bi-x-lg{
+	float: right;
+	color: black;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 13px;
+	border-radius: 50%;
+	padding: 3px 8px;
+}
+
+.bi-x-lg:hover{
+	color: red;
+}
+
+.bi-x-lg:active{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#wish{
+	position: fixed;
+	width: 1903px;
+	height: 969px;
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 0.7;
+	margin-top: -64px;
+	display: none;
+	transition: 1s;
+}
+
+#wishitem{
+	width: 1700px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 135px;
+	background: whitesmoke;
+	opacity: 1;
+	border-radius: 20px;
+}
+
+#carthd{
+	color: black;
+	font-family: monospace;	
+	font-weight: bold;
+	float: left;
+	margin-left: 820px;
+	margin-top: 15px;
+	font-size: 30px;
+}
+
+#wishhd{
+	color: black;
+	font-family: monospace;	
+	font-weight: bold;
+	float: left;
+	margin-left: 784px;
+	margin-top: 15px;
+	font-size: 30px;
+}
