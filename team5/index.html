@@ -35,6 +35,7 @@
 			<a href="#" id="navitems1">CONTACT</a>
 		</div>
 		<div id="icons">
+		<i class="bi bi-search" onclick="searchopen()"></i>
 		<i class="bi bi-heart" onclick="wishopen()"></i>
 		<i class="bi bi-cart3" onclick="cartopen()"></i>
 		</div>
@@ -50,6 +51,16 @@
 				<h2 id="wishhd">Wishlist</h2>
 			</div>
 		</div>
+		<div id="search">
+			<div id="searchbar">
+				<i class="bi bi-x-lg" onclick="searchclose()"></i>
+				<h2 id="searchhd">Search</h2>
+				<input type="text" class="form-control" id="srch" placeholder="Type Here">
+			</div>
+			<div id="searchresults">
+				<p id="txt">Results :</p>
+			</div>
+		</div>
 	</div>
 </div>
 </body>
@@ -58,6 +69,7 @@
 	
 	var a = document.getElementById("cart");
 	var b = document.getElementById("wish");
+	var c = document.getElementById("search");
 
 	function cartopen(){
 		a.style.display = "block";
@@ -73,6 +85,14 @@
 
 	function wishclose(){
 		b.style.display = "none";
+	}
+
+	function searchopen(){
+		c.style.display = "block";
+	}
+
+	function searchclose(){
+		c.style.display = "none";
 	}
 </script>
 

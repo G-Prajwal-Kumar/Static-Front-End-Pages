@@ -53,7 +53,7 @@ body{
 }
 
 #icons{
-	width: 100px;
+	width: 150px;
 	height: 35px;
 	float: right;
 	margin-right: 50px;
@@ -62,12 +62,12 @@ body{
 
 .bi-cart3{
 	font-size: 25px;
-	margin-left: 10px;
+	margin-left: 5px;
 	border-radius: 50%;
 	padding: 2px 6px;
 }
 
-.bi-cart3:hover, .bi-heart:hover{
+.bi-cart3:hover, .bi-heart:hover, .bi-search:hover{
 	background: black;
 	color: white;
 }
@@ -80,9 +80,17 @@ body{
 	padding-right: 6px;
 }
 
+.bi-search{
+	font-size: 25px;
+	margin-left: 10px;
+	border-radius: 50%;
+	padding: 2px 6px;
+}
+
 #cart{
-	position: fixed;
+	position: relative;
 	width: 1903px;
+	max-width: 1903px;
 	height: 969px;
 	background-color: rgba(0, 0, 0, 0.8);
 	opacity: 0.7;
@@ -94,8 +102,9 @@ body{
 #cartitem{
 	width: 1700px;
 	height: 700px;
-	margin: 0 auto;
-	margin-top: 135px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 101px;
 	background: whitesmoke;
 	opacity: 1;
 	border-radius: 20px;
@@ -120,8 +129,9 @@ body{
 }
 
 #wish{
-	position: fixed;
+	position: relative;
 	width: 1903px;
+	max-width: 1903px;
 	height: 969px;
 	background-color: rgba(0, 0, 0, 0.8);
 	opacity: 0.7;
@@ -133,8 +143,32 @@ body{
 #wishitem{
 	width: 1700px;
 	height: 700px;
-	margin: 0 auto;
-	margin-top: 135px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 101px;
+	background: whitesmoke;
+	opacity: 1;
+	border-radius: 20px;
+}
+
+#search{
+	position: relative;
+	width: 1903px;
+	max-width: 1903px;
+	height: 969px;
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 0.7;
+	margin-top: -64px;
+	display: one;
+	transition: 1s;
+}
+
+#searchbar{
+	width: 1700px;
+	height: 65px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 101px;
 	background: whitesmoke;
 	opacity: 1;
 	border-radius: 20px;
@@ -158,4 +192,40 @@ body{
 	margin-left: 784px;
 	margin-top: 15px;
 	font-size: 30px;
+}
+
+#searchhd{
+	color: black;
+	font-family: monospace;	
+	font-weight: bold;
+	float: left;
+	margin-left: 30px;
+	margin-top: 14px;
+	font-size: 30px;
+}
+
+#srch{
+	width: 80%;
+	margin-top: 14px;
+	float: left;
+	margin-left: 50px;
+}
+
+#searchresults{
+	width: 1700px;
+	height: 600px;
+	background: whitesmoke;
+	float: left;
+	margin-left: 101px;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+#txt{
+	color: black;
+	font-family: monospace;
+	font-weight: bold;
+	float: left;
+	margin-left: 30px;
+	margin-top: 15px;
 }
