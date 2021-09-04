@@ -5,7 +5,7 @@ body{
 #maindiv{
 	margin: 0 auto;
 	width: 1903px;
-	height: 2229px;
+	height: 2634px;
 	background: white;
 }
 
@@ -45,7 +45,8 @@ body{
 }
 
 #navitems1:hover{
-	color: greenyellow;
+	background: slategrey;
+	color: white;
 	transition: .2s;
 }
 
@@ -64,28 +65,31 @@ body{
 .bi-cart3{
 	font-size: 25px;
 	margin-left: 5px;
-	border-radius: 50%;
+	border-radius: 15px;
 	padding: 2px 6px;
 }
 
 .bi-cart3:hover, .bi-heart:hover, .bi-search:hover{
-	color: greenyellow;
+	background: slategrey;
+	color: white;
 	transition: 0.2s;
 }
 
 .bi-heart{
 	font-size: 25px;
-	border-radius: 50%;
-	padding: 2px 0px;
-	padding-left: 7px;
+	border-radius: 15px;
+	padding-top: 2px;
+	padding-left: 5px;
 	padding-right: 6px;
 }
 
 .bi-search{
 	font-size: 25px;
 	margin-left: 10px;
-	border-radius: 50%;
-	padding: 2px 6px;
+	border-radius: 15px;
+	padding: 2px 0px;
+	padding-left: 6px;
+	padding-right: 7px;
 }
 
 #cart{
@@ -276,14 +280,14 @@ body{
 
 #popularpdts{
 	width: 1800px;
-	height: 313px;
+	height: 450px;
 	background: grey;
 	border-radius: 20px;
 	margin-left: 51.5px;
 }
 #recommendedpdts{
 	width: 1800px;
-	height: 313px;
+	height: 450px;
 	background: grey;
 	margin-top: 15px;
 	border-radius: 20px;
@@ -291,7 +295,7 @@ body{
 }
 #recentlypdts{
 	width: 1800px;
-	height: 313px;
+	height: 450px;
 	background: grey;
 	margin-top: 15px;
 	border-radius: 20px;
@@ -327,7 +331,7 @@ body{
 
 #pdtlist{
 	width: 1750px;
-	height: 267px;
+	height: 390px;
 	margin-left: 25px;
 	float: left;
 	display: flex;
@@ -335,8 +339,8 @@ body{
 }
 
 #pdt1, #pdt2, #pdt3, #pdt4, #pdt5, #pdt6{
-	width: 283px;
-	height: 250px;
+	width: 338px;
+	height: 390px;
 	border-radius: 10px;
 	background: lightsalmon;
 }
@@ -345,15 +349,15 @@ body{
 	color: black;
 	font-family: monospace;
 	font-weight: bold;
-	margin-left: 110px;
-	margin-top: 115px;
+	margin-left: 135px;
+	margin-top: 180px;
 }
 
 #endbar{
 	width: 1903px;
 	height: 200px;
 	float: left;
-	margin-top: 20px;
+	margin-top: 425px;
 	display: block;
 	background: lightblue;
 }
