@@ -1,0 +1,156 @@
+.nav{
+	width: 100%;
+	height: 80px;
+	background: #0F0C2C;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+.logo{
+	color: white;
+	font-family: monospace;
+	margin-top: 20px;
+}
+
+#links{
+	width: 500px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 27px;
+	transition: 0.5s;
+}
+
+.link{
+	text-decoration: none;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+#links li{
+	list-style-type: none;
+}
+
+.link:hover{
+	color: white;
+}
+
+.bi-list{
+	color: white;
+	display: none;
+}
+
+.stuff{
+	width: 100%;
+	height: 400px;
+}
+
+.endbar{
+	width: 100%;
+	height: auto;
+	background: #0F0C2C;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.quicklinks, .service, .projects, .touchwithus{
+	width: 300px;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.headings{
+	color: white;
+	font-family: monospace;
+	margin-bottom: 15px;
+}
+
+.endbar p{
+	color: lightgrey;
+	margin-bottom: 2px;
+}
+
+.quicklinks a{
+	display: block;
+	color: white;
+}
+
+.quicklinks a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+@media screen and (max-width: 600px){
+	.nav{
+		width: 100%;
+		height: 60px;
+		background: #0F0C2C;
+		justify-content: space-between;
+	}
+
+	.logo{
+		color: white;
+		font-family: monospace;
+		margin-top: 15px;
+		font-size: 24px;
+		margin-left: 5%;
+	}
+
+	#links{
+		width: 97%;
+		height: 170px;
+		display: block;
+		margin-left: 1.5%;
+		margin-top: 66px;
+		background: whitesmoke;
+		position: fixed;
+		overflow: hidden;
+		transition: 0.5s;
+	}
+
+	.link{
+		display: block;
+		text-align: right;
+		font-family: 'Lato', sans-serif;
+		color: black;
+		font-weight: bold;
+		margin-right: 3%;
+		margin-top: 8px;
+	}
+
+	.link:active{
+		background: white;
+	}
+
+	.bi-list{
+		display: inline-block;
+		font-size: 24px;
+		margin-top: 11px;
+		float: right;
+		margin-right: 5%;
+		cursor: pointer;
+	}
+
+	.endbar{
+		width: 100%;
+		height: 800px;
+		background: #0F0C2C;
+		display: block;
+		justify-content: space-evenly;
+	}
+
+	.quicklinks, .service, .projects, .touchwithus{
+		width: 90%;
+		height: auto;
+		float: left;
+		margin-top: 40px;
+		margin-left: 5%;
+	}
+
+	.headings{
+		color: white;
+		font-family: monospace;
+		margin-bottom: 5px;
+	}
+}
