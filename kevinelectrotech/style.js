@@ -15,3 +15,7 @@ function togglemenu(){
 		
 	}	
 }
+
+function toggle(btn){
+	btn.classList.toggle("active");
+}
