@@ -21,7 +21,7 @@
 	margin: 15px;
 }
 
-.container{
+.content{
 	display: none;
 }
 
@@ -54,7 +54,7 @@
 	height: auto;
 	background: #0F0C2C;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .quicklinks, .service, .projects, .touchwithus{
@@ -62,6 +62,20 @@
 	height: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.quicklinks{
+	margin-left: 3%;
+	margin-right: 1%;
+}
+
+.touchwithus{
+	margin-right: 3%;
+	margin-left: 1%;
+}
+
+.projects{
+	margin-left: 1%;
 }
 
 .headings{
@@ -128,25 +142,26 @@
 		margin-left: 5%;
 	}
 
-	.container{
-		background: lightblue;
-		display: inline-block;
-		border-radius: 50%;
-		padding: 12px 9px;
-		box-shadow: 0px 0px 24px 6px white;
+	.content{
 		cursor: pointer;
+		display: block;
+		height: 22px;
+		margin-right: 5%;
+		margin-top: 19px;
 	}
 
 	.strip1, .strip2, .strip3{
 		width: 22px;
 		height: 2px;
-		background: white;
-		margin: 4px;
+		background: none;
+		margin: 4px 0px;
+		margin-right: 0px;
 		transition: .5s;
+		box-shadow: 0px 0px 3px 2px white;
 	}
 
 	.active .strip1{
-		transform: rotate(-405deg) translate(-5px, 3.5px);
+		transform: rotate(-405deg) translate(-3px, 7px);
 	}
 
 	.active .strip2{
@@ -154,7 +169,7 @@
 	}
 
 	.active .strip3{
-		transform: rotate(405deg) translate(-5px, -4px);
+		transform: rotate(405deg) translate(-1.4px, -5.5px);
 	}
 
 	#links{
