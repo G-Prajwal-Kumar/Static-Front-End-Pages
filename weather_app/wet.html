@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather</title>
+	<script src="weather.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="maindiv_1">
+	<div class="maindiv">
+		<center>
+		<div style="width: 75%; height: 80px">
+			<div style="width: 100%; height: 60%; padding-top: 20px;">
+			<p id="sels">Selet Your City : </p>
+			<select id="drop">
+				<option value="hyderabad" selected="selected" >Hyderabad</option>
+				<option value="manhattan">Manhattan</option>
+			</select>
+			<button onclick="selectval()" class="btn">Submit</button>
+			</div>
+			<div style="width: 100%;height: 40%">
+			<img id="myimg" src="">
+			</div>
+		</div>
+		
+		<div id="weth">
+		<h2 id="head">Weather Report</h2>
+		<p id="cont">Country</p>
+		<p id="desc" style="text-transform: capitalize;">Description</p>
+		<p id="mypara">Temp</p>
+		<p id="humid">Humidity</p>
+		<p id="wind">Wind Speed</p>
+		</div>
+		</center>
+		
+	</div>
+</div>
+</body>
+</html>
