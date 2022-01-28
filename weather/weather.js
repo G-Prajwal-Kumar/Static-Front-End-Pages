@@ -24,7 +24,7 @@ request.onload = function() {
         document.getElementById('humid').innerHTML= "Humidity : "+data.main.humidity+"%";
         document.getElementById('wind').innerHTML= "Wind Speed : "+data.wind.speed;
         document.getElementById('myimg').src=imgsrc;
-        /*document.getElementById('bdy').style.background-image = "url(C:/Users/prajwal/Downloads/"+city+".jpg);"*/
+        document.body.style.backgroundImage = "url("+city+".jpg)"
 
     }
     else {
